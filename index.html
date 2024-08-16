@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende HTML</title>
+    <style>
+     body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    flex-wrap: wrap;
+}
+nav a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    flex: 1;
+    text-align: center;
+    min-width: 100px;
+}
+nav a:hover {
+    background-color: #555;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.images img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    flex-basis: calc(50% - 20px);
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aprende Desarollo Web</h1>
+    </header>
+
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="tuto.html">Tutoriales</a>
+    <a href="Recursos.html">Recursos</a>
+    <a href="Contacto.html">Contacto</a>
+</nav>
+<!-- Aquí puedes agregar el resto de tu contenido -->
+
+</body>
+</html>
+<div class="container">
+    <div class="video">
+        <!-- Video de YouTube embebido -->
+        <iframe src="https://www.youtube.com/embed/MJkdaVFHrto?si" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        </div>
+
+</div>
+<section id="historia-html">
+    <h2>Historia de HTML</h2>
+    <p>HTML, siglas de HyperText Markup Language, es el lenguaje estándar para crear páginas web. Fue desarrollado por Tim Berners-Lee en 1991 mientras trabajaba en CERN.</p>
+    
+    <h3>Primeras versiones</h3>
+    <p>La primera versión de HTML fue básica, permitiendo la creación de páginas con texto e hipervínculos. En 1995, se lanzó HTML 2.0, que estandarizó muchas de las características básicas.</p>
+    
+    <h3>HTML 4.01 y XHTML</h3>
+    <p>En 1999, HTML 4.01 se convirtió en un estándar con características avanzadas como tablas, formularios, y hojas de estilo en cascada (CSS). Poco después, se introdujo XHTML, una versión de HTML más estricta basada en XML.</p>
+    
+    <h3>HTML5: El presente</h3>
+    <p>HTML5, lanzado en 2014, es la versión más moderna y poderosa. Incluye soporte para video y audio nativos, gráficos, APIs avanzadas, y mucho más. Es el estándar actual para el desarrollo web.</p>
+</section>
+    <style>
+    #historia-html {
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#historia-html h2 {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+#historia-html h3 {
+    color: #555;
+    margin-top: 1em;
+}
+
+#historia-html p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+    </style>
+    
+<section id="historia-css">
+    <h2>Historia de CSS</h2>
+    <p>CSS, siglas de Cascading Style Sheets (Hojas de Estilo en Cascada), es un lenguaje que se utiliza para describir la presentación de un documento escrito en HTML o XML. Fue creado para separar el contenido del diseño visual de una página web.</p>
+    
+    <h3>Primeros pasos</h3>
+    <p>El concepto de CSS fue propuesto por Håkon Wium Lie en 1994, y la primera especificación oficial fue publicada en 1996 por el World Wide Web Consortium (W3C). CSS1 introdujo los conceptos básicos de diseño como colores, fuentes y márgenes.</p>
+    
+    <h3>CSS2 y mejoras</h3>
+    <p>En 1998, se lanzó CSS2, que incluyó nuevas características como el posicionamiento absoluto, z-index y soporte para medios distintos (impresión, pantalla, etc.). Sin embargo, CSS2 no fue completamente implementado en todos los navegadores.</p>
+    
+    <h3>CSS3: Modularización y nuevas características</h3>
+    <p>CSS3, que comenzó a desarrollarse en 1999, introdujo una modularización de la especificación, permitiendo que las características se desarrollaran y publicaran de manera independiente. Incluyó nuevas propiedades como gradientes, sombras, transiciones y animaciones.</p>
+    
+    <h3>CSS en la actualidad</h3>
+    <p>Hoy en día, CSS sigue evolucionando con nuevas características como Flexbox y Grid Layout, que permiten un diseño más flexible y responsivo. Las especificaciones de CSS continúan siendo desarrolladas para mejorar el diseño web.</p>
+</section>
+    
+    <style>#historia-css {
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#historia-css h2 {
+    color: #444;
+    margin-bottom: 1em;
+}
+
+#historia-css h3 {
+    color: #666;
+    margin-top: 1em;
+}
+
+#historia-css p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}</style>
+    
+ <section id="historia-js">
+    <h2>Historia de JavaScript</h2>
+    <p>JavaScript es un lenguaje de programación que se utiliza para crear contenido interactivo en páginas web. Fue desarrollado inicialmente por Netscape en 1995 bajo el nombre de Mocha, luego renombrado a LiveScript, y finalmente a JavaScript.</p>
+    
+    <h3>Creación y primeras versiones</h3>
+    <p>JavaScript fue creado por Brendan Eich en 1995 mientras trabajaba en Netscape. La primera versión, lanzada en diciembre de 1995, fue diseñada para hacer que las páginas web fueran interactivas. En 1996, Netscape lo renombró a JavaScript.</p>
+    
+    <h3>Estándar ECMAScript</h3>
+    <p>En 1997, JavaScript fue estandarizado por la ECMA International bajo el nombre ECMAScript. La primera edición de ECMAScript (ES1) fue publicada en junio de 1997. ECMAScript ha evolucionado con nuevas versiones que han agregado características avanzadas al lenguaje.</p>
+    
+    <h3>JavaScript moderno</h3>
+    <p>En 2009, ECMAScript 5 (ES5) fue lanzado, introduciendo mejoras importantes como el modo estricto, nuevos métodos de objetos y arrays. ECMAScript 6 (ES6), lanzado en 2015, trajo grandes cambios como clases, módulos, y funciones flecha. Desde entonces, las versiones han sido lanzadas anualmente.</p>
+    
+    <h3>Estado actual</h3>
+    <p>JavaScript sigue evolucionando con nuevas especificaciones y características como la API Fetch, Async/Await y mejoras en el rendimiento. Es un lenguaje central en el desarrollo web moderno, con soporte en la mayoría de los navegadores y plataformas.</p>
+</section>
+    <style>#historia-js {
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#historia-js h2 {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+#historia-js h3 {
+    color: #555;
+    margin-top: 1em;
+}
+
+#historia-js p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}</style>
+<footer>
+    <p>©2024 HTML FREE</p>
+</footer>
+
+</body>
+</html>
